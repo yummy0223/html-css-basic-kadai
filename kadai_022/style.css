@@ -2,6 +2,10 @@ h1,p,body{
   margin: 0;
 }
 
+p,a{
+  font-size: 20px;
+}
+
 header{
   margin-bottom: 20px;
   background-color: rgb(244, 79, 79);
@@ -9,7 +13,7 @@ header{
 }
 
 header h1{
-  rgb(255, 255, 255)
+  color: rgb(255, 255, 255);
 }
 
 main{
@@ -31,7 +35,7 @@ main{
 
 .contents h2{
   font-size: 25px;
-  text-decoration: underline 3px dotted rgb(236, 122, 122)
+  border-bottom: 3px dotted rgb(236, 122, 122)
 }
 
 h2::before {
